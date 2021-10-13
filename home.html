@@ -6,6 +6,7 @@
     <title>Criar Sala - Discover</title>
     <link rel="stylesheet" href="styles/global.css" />
     <link rel="stylesheet" href="styles/home.css" />
+    <link rel="stylesheet" href="assets/icomoon/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,7 +21,10 @@
         <img src="assets/logo.svg" alt="logo lupa azul" />
       </header>
 
-      <div id="bg"></div>
+      <div id="bg">
+        <div class="ball top"></div>
+        <div class="ball bottom"></div>
+      </div>
 
       <main>
         <div class="container">
@@ -30,11 +34,12 @@
               <label class="sr-only" for="room-id"> Código da Sala</label>
               <input id="room-id" type="number" placeholder="Código da sala" />
               <button>
-                <img src="assets/icon-login.svg" alt="" />
+                <img class="icon-icon-log-in" alt="" />
                 Entrar na Sala
               </button>
             </form>
           </section>
+
           <div class="separator">
             <div></div>
             <div>Ou</div>

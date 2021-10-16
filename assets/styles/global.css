@@ -25,6 +25,8 @@ html {
   --hov-red: #ea4b65;
   --hov-grey: #8794a7;
 
+  --box-grey: #e5e5e5;
+
   --font-text: 'Open Sans', sans-serif;
   --font-title: 'Poppins', sans-serif;
 
@@ -101,6 +103,16 @@ button.outlined,
   background: var(--white);
   color: var(--blue);
   border: 0.2rem solid var(--blue);
+}
+
+button.red {
+  color: var(--white);
+  background: var(--red);
+}
+
+button.grey {
+  background: var(--gre-light);
+  color: var(--gre-dark);
 }
 
 .content header {

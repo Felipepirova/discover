@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/styles/global.css" />
     <link rel="stylesheet" href="assets/styles/room.css" />
     <link rel="stylesheet" href="assets/fonts/style.css" />
+    <link rel="stylesheet" href="assets/styles/modal.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -60,15 +61,57 @@
                   <i class="icon-user"></i>
                 </div>
                 <div class="question">
-                  <p>Qual a diferença entre const, var e let no Javascript</p>
+                  <p>Qual a diferença entre const, var e let no Javascript?</p>
                 </div>
               </div>
               <div class="actions">
-                <a href="#">
+                <a href="#" class="read">
                   <i class="icon-check"></i>
                   <p>Marcar como lida</p>
                 </a>
-                <a href="">
+                <a href="" class="delete">
+                  <i class="icon-trash"></i>
+                  <p>Excluir</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="question-wrapper read">
+              <div class="question-content">
+                <div class="user">
+                  <i class="icon-user"></i>
+                </div>
+                <div class="question">
+                  <p>Qual a diferença entre const, var e let no Javascript?</p>
+                </div>
+              </div>
+              <div class="actions">
+                <a href="#" class="read">
+                  <i class="icon-check"></i>
+                  <p>Marcar como lida</p>
+                </a>
+                <a href="" class="delete">
+                  <i class="icon-trash"></i>
+                  <p>Excluir</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="question-wrapper delete">
+              <div class="question-content">
+                <div class="user">
+                  <i class="icon-user"></i>
+                </div>
+                <div class="question">
+                  <p>Qual a diferença entre const, var e let no Javascript?</p>
+                </div>
+              </div>
+              <div class="actions">
+                <a href="#" class="read">
+                  <i class="icon-check"></i>
+                  <p>Marcar como lida</p>
+                </a>
+                <a href="" class="delete">
                   <i class="icon-trash"></i>
                   <p>Excluir</p>
                 </a>
@@ -77,6 +120,25 @@
           </div>
         </section>
       </main>
+    </div>
+
+    <div class="modal-wrapper">
+      <div class="modal">
+        <h2>Excluir Pergunta</h2>
+        <p>Tem CERTEZA que você deseja excluir esta pergunta?</p>
+        <form action="#">
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Digite seu código aqui"
+          />
+          <div class="buttons">
+            <button class="grey">Cancelar</button>
+            <button class="red">Sim, excluir</button>
+          </div>
+        </form>
+      </div>
     </div>
   </body>
 </html>
